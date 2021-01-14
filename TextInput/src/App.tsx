@@ -19,7 +19,7 @@ const App = () => {
             <Text style={styles.sectionTitle}>Simple Forms</Text>
             <Input field={'Your Name'}/>
             <Input field={'Your Age'}/>
-            <Input field={'Your Email'}/>
+            <Input field={'Your Email!'}/>
           </View>
         </View>
 
