@@ -1,12 +1,13 @@
 import React from 'react';
 import { AppearanceProvider } from 'react-native-appearance';
-import { Home } from './screens/home'
+import { Draggable } from './screens/draggable'
+import { Text } from 'react-native';
 
 const App = () => {
 
   return (
     <AppearanceProvider>
-        <Home />
+        <Draggable />
     </AppearanceProvider>
   );
 };
