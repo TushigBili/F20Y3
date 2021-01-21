@@ -12,8 +12,8 @@ export const LeftActions = (process: any, dragX: any) => {
   })
 
   return (
-    <View style={{ flex: 1, backgroundColor: 'blue', justifyContent: 'center', alignItems: "center", height: 150, width: '100%', marginTop: 15 }}>
-      <Animated.Text style={[styles.leftAction, {transform: [{translateX: trans}]}]}>
+    <View style={{ flex: 1, backgroundColor: 'blue', justifyContent: 'center', height: 150, width: '100%', marginTop: 15 }}>
+      <Animated.Text style={[styles.leftAction, { transform: [{ translateX: trans }] }]}>
         Archive
         </Animated.Text>
     </View>
@@ -22,9 +22,9 @@ export const LeftActions = (process: any, dragX: any) => {
 
 const styles = StyleSheet.create({
   leftAction: {
-    color: 'white', 
-    paddingHorizontal: 10, 
-    fontWeight: '600', 
+    color: 'white',
+    paddingHorizontal: 10,
+    fontWeight: '600',
     fontSize: 24
   }
 })

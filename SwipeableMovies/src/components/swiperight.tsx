@@ -13,7 +13,7 @@ export const RightActions = (process: any, dragX: any) => {
 
     return (
         <View
-            style={{ flex: 1, backgroundColor: 'red', justifyContent: 'center', alignItems: "center", height: 150, width: '100%', marginTop: 15 }}>
+            style={{ flex: 1, backgroundColor: 'red', justifyContent: 'center', alignItems: "flex-end", height: 150, width: '100%', marginTop: 15 }}>
             <Animated.Text
                 style={[
                     styles.rightAction,
