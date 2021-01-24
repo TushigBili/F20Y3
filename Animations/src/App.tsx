@@ -1,11 +1,11 @@
 import React from 'react';
-import { Scale, Flip, Rotate, AlexandMarty } from './components'
+import { Scale, Flip, Rotate, AlexandMarty, Diagonal, Horizontal, Sinus } from './components'
 
 const App = () => {
 
   return (
     <>
-      <AlexandMarty />
+      <Sinus />
     </>
   )
 };
